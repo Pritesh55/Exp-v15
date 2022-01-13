@@ -9,6 +9,18 @@ app.get("/", (req, resp) => {
     resp.send("<h1> Jay Shree ram...</h1>");
 });
 
+app.get("/about", (req, resp) => {
+    resp.send("<h1> About page.</h1>");
+});
+
+app.get("/service", (req, resp) => {
+    resp.send("<h1> Service page..</h1>");
+});
+
+app.get("/contact", (req, resp) => {
+    resp.send("<h1> contact.</h1>");
+});
+
 app.listen(PORT, () => {
     console.log("server is working on PORT no :: "
      + PORT + "\n" + "http://localhost:" + PORT);
