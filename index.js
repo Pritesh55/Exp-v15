@@ -1,13 +1,14 @@
-// imPORT Third party module :: Express module... 
+// import Third party module :: Express module... 
 const express = require('express');
 const app = express();
 
-// import inbuilt module :: path
+// import inbuilt module :: path module...
 const path = require('path');
+
 
 // inbuilt variable.... 
 
-console.log(" Path of __dirname is = " + __dirname );
+console.log(" Path of __dirname  is = " + __dirname + "\n");
 console.log(" Path of __filename is = " + __filename + "\n");
 
 const home = path.join( __dirname, 
